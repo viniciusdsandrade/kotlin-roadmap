@@ -17,7 +17,6 @@
  * 7. Destructuring e underscore para parâmetros não utilizados.
  * 8. Funções literais com receiver (ex.: para DSLs).
  */
-
 fun main() {
     println("Exemplos de Higher-Order Functions e Lambdas:\n")
 
@@ -38,7 +37,7 @@ fun main() {
     println("Resultado da subtração: $subtractionResult")
 
     // 4. Uso do 'it' quando há um único parâmetro.
-    // 'filter' recebe uma lambda que filtra os elementos positivos de uma lista.
+    // 'filter' recebe um lambda que filtra os elementos positivos de uma lista.
     val numbers = listOf(-1, 2, -3, 4, 0)
     val positives = numbers.filter { it > 0 }
     println("Números positivos: $positives")
