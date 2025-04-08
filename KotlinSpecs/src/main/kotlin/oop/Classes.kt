@@ -99,6 +99,7 @@ fun main() {
     val pai = PessoaComPai("Carlos")
     val filho = PessoaComPai("Pedro", pai)
     println("Pai: ${pai.nome}, Filhos: ${pai.filhos.map { it.nome }}\n")
+    println("Filho: ${filho.nome}, Pai: ${filho.nome}\n")
 
     // Exemplo 5: Acessando o companion object para chamar função estática.
     val saudacao = saudacao("Ana")
